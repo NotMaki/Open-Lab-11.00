@@ -9,22 +9,15 @@ namespace Open_Lab_11._00
         static void Main(string[] args)
         {
 
-            Book LOTR = new Book();
-            //LOTR.Title = "The Lord of the Rings";
-            //LOTR.Pages = 9250;
-            //LOTR.Category = "epic high-fantasy novel";
-            //LOTR.Author = "John Ronald Reuel Tolkien";
-            //LOTR.ReleaseDate = 1954;
-            Console.WriteLine(LOTR.ToString());
+            Library skola= new Library();
 
-            Book LOTR2 = new Book();
-            Console.WriteLine(LOTR2.ToString());
+            Book kniha0 = new Book("SLJ", 312, Book.categoryList[2], "Zuzana Bírová", 2019);
 
-            Book LOTR3 = new Book("The Lord of the Rings 3", 576);
-            Console.WriteLine(LOTR3.ToString());
+            skola.StutentsList.Add("Lukáš");
+            skola.BooksList.Add(kniha0);
 
-            Book Hobit = new Book("Hobit", 304, Book.categoryList[3], "John Ronald Reuel Tolkien", 1954);
-            Console.WriteLine(Hobit.ToString());
+            Console.WriteLine(skola.ToString());
+
         }
     }
 }
