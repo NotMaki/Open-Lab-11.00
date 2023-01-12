@@ -13,8 +13,8 @@ namespace Open_Lab_11._00
 
             Book kniha0 = new Book("Slovenský Jazyk", 183, Book.categoryList[2], "Zuzana Bírová", 2019);
             Book kniha1 = new Book("Matematika", 90, Book.categoryList[2], "Peter Druska", 2021);
-            Book kniha2 = new Book("Nemčina", 157, Book.categoryList[2], "Peter Druska", 2021);
-            Book kniha3 = new Book("", 157, Book.categoryList[2], "Peter Druska", 2021);
+            Book kniha2 = new Book("Nemčina", 157, Book.categoryList[2], "Mária Maxiánová", 2021);
+            Book kniha3 = new Book("Elektronika hrou", 157, Book.categoryList[2], "Peter Sovík", 2017);
             
             skola.StutentsList.Add("John");
             skola.StutentsList.Add("Poul");
